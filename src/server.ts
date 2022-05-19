@@ -1,6 +1,7 @@
-import * as dotenv from 'dotenv'
+//import 'dotenv/config'
+import { config } from 'dotenv'
 
-dotenv.config({path: "../.env"})
+config( { path: "../.env" } )
 
 let str: String = process.env.TEST_ENV
 console.log(str)
