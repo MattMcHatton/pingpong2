@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/MattMcHatton/pingpong2#readme",
   "devDependencies": {
+    "@types/node": "^17.0.34",
+    "dotenv": "^16.0.1",
     "typescript": "^4.6.4"
   }
 }
